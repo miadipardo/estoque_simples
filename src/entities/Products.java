@@ -29,7 +29,7 @@ public class Products {
 				+ ", "
 				+ quantity
 				+ " units, Total: $ "
-				+ String.format("%.2f", totalValueInStock());
+				+ String.format("%.3f", totalValueInStock());
 		
 	}
 }
